@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G217" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AdminClass" representedClassName="AdminClass" syncable="YES">
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Game" representedClassName="Game" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="vouchers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="VoucherClass" inverseName="game" inverseEntity="VoucherClass"/>
+    </entity>
+    <entity name="UserClass" representedClassName="UserClass" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="VoucherClass" representedClassName="VoucherClass" syncable="YES">
+        <attribute name="credit" optional="YES" attributeType="String"/>
+        <attribute name="isUsed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="redeemCode" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="game" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="vouchers" inverseEntity="Game"/>
+    </entity>
+    <elements>
+        <element name="AdminClass" positionX="-45" positionY="54" width="128" height="59"/>
+        <element name="Game" positionX="-36" positionY="63" width="128" height="74"/>
+        <element name="UserClass" positionX="-63" positionY="-18" width="128" height="74"/>
+        <element name="VoucherClass" positionX="-54" positionY="18" width="128" height="104"/>
+    </elements>
 </model>

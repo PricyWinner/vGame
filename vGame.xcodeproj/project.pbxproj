@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		812AD20529711845003DAB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812AD20429711845003DAB52 /* AppDelegate.swift */; };
 		812AD20729711845003DAB52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812AD20629711845003DAB52 /* SceneDelegate.swift */; };
-		812AD20929711845003DAB52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812AD20829711845003DAB52 /* ViewController.swift */; };
+		812AD20929711845003DAB52 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812AD20829711845003DAB52 /* LoginViewController.swift */; };
 		812AD20C29711845003DAB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812AD20A29711845003DAB52 /* Main.storyboard */; };
 		812AD20F29711845003DAB52 /* vGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 812AD20D29711845003DAB52 /* vGame.xcdatamodeld */; };
 		812AD21129711848003DAB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812AD21029711848003DAB52 /* Assets.xcassets */; };
@@ -17,6 +17,25 @@
 		812AD21F29711849003DAB52 /* vGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812AD21E29711849003DAB52 /* vGameTests.swift */; };
 		812AD22929711849003DAB52 /* vGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812AD22829711849003DAB52 /* vGameUITests.swift */; };
 		812AD22B29711849003DAB52 /* vGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812AD22A29711849003DAB52 /* vGameUITestsLaunchTests.swift */; };
+		8133E3912971284C00E0937E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8133E3902971284C00E0937E /* RegisterViewController.swift */; };
+		8133E3932971296600E0937E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8133E3922971296600E0937E /* DataManager.swift */; };
+		8133E39529712A9300E0937E /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8133E39429712A9300E0937E /* UserService.swift */; };
+		8133E39729712AB800E0937E /* VoucherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8133E39629712AB800E0937E /* VoucherService.swift */; };
+		8133E39929712AC700E0937E /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8133E39829712AC700E0937E /* TransactionService.swift */; };
+		8133E39B29712AFD00E0937E /* AdminService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8133E39A29712AFD00E0937E /* AdminService.swift */; };
+		8133E3A62971472D00E0937E /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8133E3A52971472D00E0937E /* GameService.swift */; };
+		8133E3B129714BA400E0937E /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8133E3B029714BA400E0937E /* CategoryViewController.swift */; };
+		813DB50529756843007B554A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813DB50429756843007B554A /* AddViewController.swift */; };
+		816A00042975A66C00FA72FA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A00032975A66C00FA72FA /* DetailViewController.swift */; };
+		816A001529767A4100FA72FA /* AdminClass+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A000D29767A4100FA72FA /* AdminClass+CoreDataClass.swift */; };
+		816A001629767A4100FA72FA /* AdminClass+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A000E29767A4100FA72FA /* AdminClass+CoreDataProperties.swift */; };
+		816A001729767A4100FA72FA /* Game+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A000F29767A4100FA72FA /* Game+CoreDataClass.swift */; };
+		816A001829767A4100FA72FA /* Game+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A001029767A4100FA72FA /* Game+CoreDataProperties.swift */; };
+		816A001929767A4100FA72FA /* VoucherClass+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A001129767A4100FA72FA /* VoucherClass+CoreDataClass.swift */; };
+		816A001A29767A4100FA72FA /* VoucherClass+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A001229767A4100FA72FA /* VoucherClass+CoreDataProperties.swift */; };
+		816A001B29767A4100FA72FA /* UserClass+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A001329767A4100FA72FA /* UserClass+CoreDataClass.swift */; };
+		816A001C29767A4100FA72FA /* UserClass+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A001429767A4100FA72FA /* UserClass+CoreDataProperties.swift */; };
+		818DBBE2297551700004F455 /* VoucherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818DBBE1297551700004F455 /* VoucherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +59,7 @@
 		812AD20129711845003DAB52 /* vGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		812AD20429711845003DAB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		812AD20629711845003DAB52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		812AD20829711845003DAB52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		812AD20829711845003DAB52 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		812AD20B29711845003DAB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		812AD20E29711845003DAB52 /* vGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vGame.xcdatamodel; sourceTree = "<group>"; };
 		812AD21029711848003DAB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +70,25 @@
 		812AD22429711849003DAB52 /* vGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		812AD22829711849003DAB52 /* vGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vGameUITests.swift; sourceTree = "<group>"; };
 		812AD22A29711849003DAB52 /* vGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8133E3902971284C00E0937E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8133E3922971296600E0937E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8133E39429712A9300E0937E /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		8133E39629712AB800E0937E /* VoucherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherService.swift; sourceTree = "<group>"; };
+		8133E39829712AC700E0937E /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		8133E39A29712AFD00E0937E /* AdminService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminService.swift; sourceTree = "<group>"; };
+		8133E3A52971472D00E0937E /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		8133E3B029714BA400E0937E /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		813DB50429756843007B554A /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		816A00032975A66C00FA72FA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		816A000D29767A4100FA72FA /* AdminClass+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdminClass+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		816A000E29767A4100FA72FA /* AdminClass+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdminClass+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		816A000F29767A4100FA72FA /* Game+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		816A001029767A4100FA72FA /* Game+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		816A001129767A4100FA72FA /* VoucherClass+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VoucherClass+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		816A001229767A4100FA72FA /* VoucherClass+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VoucherClass+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		816A001329767A4100FA72FA /* UserClass+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserClass+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		816A001429767A4100FA72FA /* UserClass+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserClass+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		818DBBE1297551700004F455 /* VoucherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +139,17 @@
 		812AD20329711845003DAB52 /* vGame */ = {
 			isa = PBXGroup;
 			children = (
+				8133E3AF29714B4F00E0937E /* services */,
+				8133E3A42971462D00E0937E /* controllers */,
+				8133E38F297127A500E0937E /* models */,
 				812AD20429711845003DAB52 /* AppDelegate.swift */,
 				812AD20629711845003DAB52 /* SceneDelegate.swift */,
-				812AD20829711845003DAB52 /* ViewController.swift */,
 				812AD20A29711845003DAB52 /* Main.storyboard */,
 				812AD21029711848003DAB52 /* Assets.xcassets */,
 				812AD21229711848003DAB52 /* LaunchScreen.storyboard */,
 				812AD21529711848003DAB52 /* Info.plist */,
 				812AD20D29711845003DAB52 /* vGame.xcdatamodeld */,
+				8133E3922971296600E0937E /* DataManager.swift */,
 			);
 			path = vGame;
 			sourceTree = "<group>";
@@ -128,6 +169,46 @@
 				812AD22A29711849003DAB52 /* vGameUITestsLaunchTests.swift */,
 			);
 			path = vGameUITests;
+			sourceTree = "<group>";
+		};
+		8133E38F297127A500E0937E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				816A000D29767A4100FA72FA /* AdminClass+CoreDataClass.swift */,
+				816A000E29767A4100FA72FA /* AdminClass+CoreDataProperties.swift */,
+				816A000F29767A4100FA72FA /* Game+CoreDataClass.swift */,
+				816A001029767A4100FA72FA /* Game+CoreDataProperties.swift */,
+				816A001129767A4100FA72FA /* VoucherClass+CoreDataClass.swift */,
+				816A001229767A4100FA72FA /* VoucherClass+CoreDataProperties.swift */,
+				816A001329767A4100FA72FA /* UserClass+CoreDataClass.swift */,
+				816A001429767A4100FA72FA /* UserClass+CoreDataProperties.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		8133E3A42971462D00E0937E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8133E3902971284C00E0937E /* RegisterViewController.swift */,
+				812AD20829711845003DAB52 /* LoginViewController.swift */,
+				8133E3B029714BA400E0937E /* CategoryViewController.swift */,
+				818DBBE1297551700004F455 /* VoucherViewController.swift */,
+				813DB50429756843007B554A /* AddViewController.swift */,
+				816A00032975A66C00FA72FA /* DetailViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		8133E3AF29714B4F00E0937E /* services */ = {
+			isa = PBXGroup;
+			children = (
+				8133E39429712A9300E0937E /* UserService.swift */,
+				8133E39629712AB800E0937E /* VoucherService.swift */,
+				8133E39829712AC700E0937E /* TransactionService.swift */,
+				8133E39A29712AFD00E0937E /* AdminService.swift */,
+				8133E3A52971472D00E0937E /* GameService.swift */,
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +342,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				812AD20929711845003DAB52 /* ViewController.swift in Sources */,
+				818DBBE2297551700004F455 /* VoucherViewController.swift in Sources */,
+				816A00042975A66C00FA72FA /* DetailViewController.swift in Sources */,
+				816A001A29767A4100FA72FA /* VoucherClass+CoreDataProperties.swift in Sources */,
+				813DB50529756843007B554A /* AddViewController.swift in Sources */,
+				8133E3932971296600E0937E /* DataManager.swift in Sources */,
+				812AD20929711845003DAB52 /* LoginViewController.swift in Sources */,
 				812AD20529711845003DAB52 /* AppDelegate.swift in Sources */,
+				8133E39929712AC700E0937E /* TransactionService.swift in Sources */,
 				812AD20F29711845003DAB52 /* vGame.xcdatamodeld in Sources */,
+				816A001829767A4100FA72FA /* Game+CoreDataProperties.swift in Sources */,
 				812AD20729711845003DAB52 /* SceneDelegate.swift in Sources */,
+				816A001929767A4100FA72FA /* VoucherClass+CoreDataClass.swift in Sources */,
+				8133E39529712A9300E0937E /* UserService.swift in Sources */,
+				8133E3A62971472D00E0937E /* GameService.swift in Sources */,
+				816A001C29767A4100FA72FA /* UserClass+CoreDataProperties.swift in Sources */,
+				816A001629767A4100FA72FA /* AdminClass+CoreDataProperties.swift in Sources */,
+				8133E39729712AB800E0937E /* VoucherService.swift in Sources */,
+				816A001529767A4100FA72FA /* AdminClass+CoreDataClass.swift in Sources */,
+				8133E3912971284C00E0937E /* RegisterViewController.swift in Sources */,
+				8133E3B129714BA400E0937E /* CategoryViewController.swift in Sources */,
+				816A001B29767A4100FA72FA /* UserClass+CoreDataClass.swift in Sources */,
+				8133E39B29712AFD00E0937E /* AdminService.swift in Sources */,
+				816A001729767A4100FA72FA /* Game+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
